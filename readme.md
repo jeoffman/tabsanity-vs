@@ -1,6 +1,12 @@
 # TabSanity Visual Studio Extension
 
-**_This project is no longer actively maintained._**
+All credit to the author Jed Mao. I just bumped the version stuff so I can use it in VS2026.
+
+SEE: https://github.com/jednano/tabsanity-vs
+
+They longer seem to support the extension so I am hosting my own version.
+
+## Overview
 
 This package causes the Visual Studio text editor to treat tabs-as-spaces as
 if they were actually tabs. That is, the backspace and delete keys, arrow key
