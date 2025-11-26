@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.329
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11222.15 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TabSanity", "TabSanity\TabSanity.csproj", "{91DC7196-68A5-453D-A8D3-DC881EAA6481}"
 EndProject
@@ -21,6 +21,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Targets", "Targets", "{7D74
 		Targets\VSIX.targets = Targets\VSIX.targets
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{D1C25745-85BA-4A8F-83C5-6D44D3BA7160}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{7C961D05-ECD8-485C-AD3A-8F3F171E0794}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +44,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7D741BC0-E43C-4F7D-AB08-71C2B546228F} = {A38FDEE6-5A59-40AA-A080-FBC78E6EF3B3}
+		{7C961D05-ECD8-485C-AD3A-8F3F171E0794} = {D1C25745-85BA-4A8F-83C5-6D44D3BA7160}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6D1DC185-6803-49EF-B1E4-DA6C613DF371}
