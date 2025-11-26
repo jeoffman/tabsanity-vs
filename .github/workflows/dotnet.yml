@@ -28,7 +28,7 @@ jobs:
         run: nuget restore
       - name: Build
         run: msbuild /p:configuration=Release /p:DeployExtension=false /p:ZipPackageCompressionLevel=normal
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: TabSanity.vsix
           path: TabSanity\bin\Release\net48\TabSanity.vsix
